@@ -208,13 +208,6 @@ vectorWatch.on('unsubscribe', function(event, response) {
     response.send();
 });
 
-
-vectorWatch.on('schedule', function(records) {
-    logger.info('on schedule');
-
-});
-
-
 // **************** Configuration Code ************************ }
 
 
